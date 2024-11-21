@@ -1,0 +1,5 @@
+services:
+  - host: home.mydomain.com
+    backend: http://192.168.21.66:4200
+  - host: www.mydomain.com
+    backend: http://192.168.21.66:8888
